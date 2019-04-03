@@ -21,6 +21,10 @@
  cd ../
  git clone https://github.com/simplresty/ngx_devel_kit.git
  git clone https://github.com/openresty/lua-nginx-module.git
+  # 下载nginx
+ wget https://nginx.org/download/nginx-1.15.10.tar.gz
+ tar -xvf nginx-1.15.10.tar.gz
+ cd nginx-1.15.10
  ./configure --add-module=../lua-nginx-module \
             --add-module=../ngx_devel_kit 
 ```
