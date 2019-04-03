@@ -23,17 +23,17 @@ config_cookie_check = "on"
 --enable/disable cc filtering
 config_cc_check = "on"
 --cc rate the xxx of xxx seconds
-config_cc_rate = "10000/60"
+config_cc_rate = "60/60"
 --enable/disable post filtering
 config_post_check = "on"
 --config waf output redirect/html
 config_waf_output = "html"
 --if config_waf_output ,setting url
-config_waf_redirect_url = "https://www.qkagame.com"
+config_waf_redirect_url = "https://www.waf.com"
 config_output_html=[[
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>QKA防火墙</title>
+<title>WAF防火墙</title>
 <style>
 p {
 	line-height:20px;
@@ -52,7 +52,7 @@ li{ list-style-type:none;}
       <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; color:#fc4f03;">您的请求带有不合法参数，已被网站管理员设置拦截！</span></p>
 <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">可能原因：您提交的内容包含危险的攻击请求</p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;">欢迎大神进行安全测试：</p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">如有安全漏洞请发邮件:admin@qkagame.com；</li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">如有安全漏洞请发邮件:admin@waf.com；</li>
 </ul>
     </div>
   </div>
