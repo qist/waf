@@ -20,7 +20,7 @@
  export LUAJIT_INC=/usr/local/include/luajit-2.1
  cd ../
  git clone https://github.com/simplresty/ngx_devel_kit.git
- git clone https://github.com/openresty/lua-nginx-module.git
+ git clone --branch v0.10.14 https://github.com/openresty/lua-nginx-module.git
   # 下载nginx
  wget https://nginx.org/download/nginx-1.15.10.tar.gz
  tar -xvf nginx-1.15.10.tar.gz
